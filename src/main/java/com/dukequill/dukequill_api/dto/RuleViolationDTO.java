@@ -6,7 +6,7 @@ public class RuleViolationDTO {
     private int line;
     private int position;
 
-    RuleViolationDTO(String rule, String message, int line, int position){
+    public RuleViolationDTO(String rule, String message, int line, int position){
         this.rule = rule;
         this.message = message;
         this.line = line;

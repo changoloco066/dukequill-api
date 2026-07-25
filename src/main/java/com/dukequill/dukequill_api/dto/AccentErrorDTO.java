@@ -5,7 +5,7 @@ public class AccentErrorDTO {
     private String suggestion;
     private int position;
 
-    AccentErrorDTO(String word, int position, String suggestion){
+    public AccentErrorDTO(String word, int position, String suggestion){
         this.word = word;
         this.position = position;
         this.suggestion = suggestion;

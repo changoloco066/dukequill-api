@@ -7,7 +7,7 @@ public class SpellErrorDTO {
     private int position;
     private List<String> suggestions;
 
-    SpellErrorDTO(String word, int line, int position, List<String> suggestions){
+    public SpellErrorDTO(String word, int line, int position, List<String> suggestions){
         this.word = word;
         this.line = line;
         this.position = position;
